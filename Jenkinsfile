@@ -18,8 +18,8 @@ pipeline {
         stage('Stop & Remove Old Container') {
             steps {
                 sh '''
-                docker stop my-java-app || true
-                docker rm my-java-app || true
+                docker stop aws || true
+                docker rm aws || true
                 '''
             }
         }
