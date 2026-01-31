@@ -17,7 +17,7 @@
    
   </dependencies>
   <build>
-    <finalName>maven-web-app</finalName>
+    <finalName>stylish-shoes-online</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
